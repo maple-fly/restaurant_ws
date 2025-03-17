@@ -1,0 +1,22 @@
+[1.348s] Invoking command in '/home/zyx/restaurant_ws/src/waiter_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/waiter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_pkg build --build-base /home/zyx/restaurant_ws/build/waiter_pkg/build install --record /home/zyx/restaurant_ws/build/waiter_pkg/install.log --single-version-externally-managed install_data
+[1.712s] running egg_info
+[1.713s] writing ../../build/waiter_pkg/waiter_pkg.egg-info/PKG-INFO
+[1.713s] writing dependency_links to ../../build/waiter_pkg/waiter_pkg.egg-info/dependency_links.txt
+[1.713s] writing entry points to ../../build/waiter_pkg/waiter_pkg.egg-info/entry_points.txt
+[1.713s] writing requirements to ../../build/waiter_pkg/waiter_pkg.egg-info/requires.txt
+[1.713s] writing top-level names to ../../build/waiter_pkg/waiter_pkg.egg-info/top_level.txt
+[1.713s] reading manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+[1.714s] adding license file 'LICENSE'
+[1.715s] writing manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+[1.723s] running build
+[1.723s] running build_py
+[1.723s] running install
+[1.723s] running install_lib
+[1.724s] running install_data
+[1.724s] running install_egg_info
+[1.724s] removing '/home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.734s] Copying ../../build/waiter_pkg/waiter_pkg.egg-info to /home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg-0.0.0-py3.10.egg-info
+[1.735s] running install_scripts
+[1.778s] Installing waiter_node script to /home/zyx/restaurant_ws/install/waiter_pkg/lib/waiter_pkg
+[1.778s] writing list of installed files to '/home/zyx/restaurant_ws/build/waiter_pkg/install.log'
+[1.834s] Invoked command in '/home/zyx/restaurant_ws/src/waiter_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/waiter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_pkg build --build-base /home/zyx/restaurant_ws/build/waiter_pkg/build install --record /home/zyx/restaurant_ws/build/waiter_pkg/install.log --single-version-externally-managed install_data

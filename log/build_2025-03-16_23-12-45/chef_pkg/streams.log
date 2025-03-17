@@ -1,0 +1,28 @@
+[1.519s] Invoking command in '/home/zyx/restaurant_ws/src/chef_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/chef_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chef_pkg build --build-base /home/zyx/restaurant_ws/build/chef_pkg/build install --record /home/zyx/restaurant_ws/build/chef_pkg/install.log --single-version-externally-managed install_data
+[1.781s] running egg_info
+[1.781s] writing ../../build/chef_pkg/chef_pkg.egg-info/PKG-INFO
+[1.781s] writing dependency_links to ../../build/chef_pkg/chef_pkg.egg-info/dependency_links.txt
+[1.781s] writing entry points to ../../build/chef_pkg/chef_pkg.egg-info/entry_points.txt
+[1.781s] writing requirements to ../../build/chef_pkg/chef_pkg.egg-info/requires.txt
+[1.781s] writing top-level names to ../../build/chef_pkg/chef_pkg.egg-info/top_level.txt
+[1.783s] reading manifest file '../../build/chef_pkg/chef_pkg.egg-info/SOURCES.txt'
+[1.784s] adding license file 'LICENSE'
+[1.784s] writing manifest file '../../build/chef_pkg/chef_pkg.egg-info/SOURCES.txt'
+[1.784s] running build
+[1.784s] running build_py
+[1.784s] copying chef_pkg/chef_node.py -> /home/zyx/restaurant_ws/build/chef_pkg/build/lib/chef_pkg
+[1.786s] running install
+[1.786s] running install_lib
+[1.786s] copying /home/zyx/restaurant_ws/build/chef_pkg/build/lib/chef_pkg/chef_node.py -> /home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages/chef_pkg
+[1.787s] byte-compiling /home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages/chef_pkg/chef_node.py to chef_node.cpython-310.pyc
+[1.788s] running install_data
+[1.790s] copying package.xml -> /home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg
+[1.790s] creating /home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/launch
+[1.790s] copying launch/chef.launch.py -> /home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/launch
+[1.790s] running install_egg_info
+[1.790s] removing '/home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages/chef_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.792s] Copying ../../build/chef_pkg/chef_pkg.egg-info to /home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages/chef_pkg-0.0.0-py3.10.egg-info
+[1.793s] running install_scripts
+[1.818s] Installing chef_node script to /home/zyx/restaurant_ws/install/chef_pkg/lib/chef_pkg
+[1.818s] writing list of installed files to '/home/zyx/restaurant_ws/build/chef_pkg/install.log'
+[1.851s] Invoked command in '/home/zyx/restaurant_ws/src/chef_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/chef_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chef_pkg build --build-base /home/zyx/restaurant_ws/build/chef_pkg/build install --record /home/zyx/restaurant_ws/build/chef_pkg/install.log --single-version-externally-managed install_data

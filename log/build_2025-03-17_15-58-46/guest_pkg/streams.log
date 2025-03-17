@@ -1,0 +1,31 @@
+[1.070s] Invoking command in '/home/cszking/restaurant_ws/src/guest_pkg': PYTHONPATH=/home/cszking/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/cszking/restaurant_ws/build/guest_pkg/build install --record /home/cszking/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data
+[1.370s] running egg_info
+[1.370s] writing ../../build/guest_pkg/guest_pkg.egg-info/PKG-INFO
+[1.370s] writing dependency_links to ../../build/guest_pkg/guest_pkg.egg-info/dependency_links.txt
+[1.370s] writing entry points to ../../build/guest_pkg/guest_pkg.egg-info/entry_points.txt
+[1.370s] writing requirements to ../../build/guest_pkg/guest_pkg.egg-info/requires.txt
+[1.370s] writing top-level names to ../../build/guest_pkg/guest_pkg.egg-info/top_level.txt
+[1.374s] reading manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+[1.374s] adding license file 'LICENSE'
+[1.375s] writing manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+[1.376s] running build
+[1.376s] running build_py
+[1.376s] copying guest_pkg/__init__.py -> /home/cszking/restaurant_ws/build/guest_pkg/build/lib/guest_pkg
+[1.376s] copying guest_pkg/guest_node.py -> /home/cszking/restaurant_ws/build/guest_pkg/build/lib/guest_pkg
+[1.377s] running install
+[1.377s] running install_lib
+[1.378s] copying /home/cszking/restaurant_ws/build/guest_pkg/build/lib/guest_pkg/__init__.py -> /home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg
+[1.379s] copying /home/cszking/restaurant_ws/build/guest_pkg/build/lib/guest_pkg/guest_node.py -> /home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg
+[1.380s] byte-compiling /home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg/__init__.py to __init__.cpython-310.pyc
+[1.380s] byte-compiling /home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg/guest_node.py to guest_node.cpython-310.pyc
+[1.380s] running install_data
+[1.382s] copying resource/guest_pkg -> /home/cszking/restaurant_ws/install/guest_pkg/share/ament_index/resource_index/packages
+[1.382s] copying package.xml -> /home/cszking/restaurant_ws/install/guest_pkg/share/guest_pkg
+[1.382s] copying launch/guest.launch.py -> /home/cszking/restaurant_ws/install/guest_pkg/share/guest_pkg/launch
+[1.382s] running install_egg_info
+[1.387s] removing '/home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.389s] Copying ../../build/guest_pkg/guest_pkg.egg-info to /home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info
+[1.391s] running install_scripts
+[1.429s] Installing guest_node script to /home/cszking/restaurant_ws/install/guest_pkg/lib/guest_pkg
+[1.431s] writing list of installed files to '/home/cszking/restaurant_ws/build/guest_pkg/install.log'
+[1.471s] Invoked command in '/home/cszking/restaurant_ws/src/guest_pkg' returned '0': PYTHONPATH=/home/cszking/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cszking/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/cszking/restaurant_ws/build/guest_pkg/build install --record /home/cszking/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data

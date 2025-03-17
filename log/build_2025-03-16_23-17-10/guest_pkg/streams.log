@@ -1,0 +1,22 @@
+[1.495s] Invoking command in '/home/zyx/restaurant_ws/src/guest_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/zyx/restaurant_ws/build/guest_pkg/build install --record /home/zyx/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data
+[1.837s] running egg_info
+[1.838s] writing ../../build/guest_pkg/guest_pkg.egg-info/PKG-INFO
+[1.839s] writing dependency_links to ../../build/guest_pkg/guest_pkg.egg-info/dependency_links.txt
+[1.841s] writing entry points to ../../build/guest_pkg/guest_pkg.egg-info/entry_points.txt
+[1.842s] writing requirements to ../../build/guest_pkg/guest_pkg.egg-info/requires.txt
+[1.842s] writing top-level names to ../../build/guest_pkg/guest_pkg.egg-info/top_level.txt
+[1.845s] reading manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+[1.845s] adding license file 'LICENSE'
+[1.846s] writing manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+[1.847s] running build
+[1.847s] running build_py
+[1.849s] running install
+[1.849s] running install_lib
+[1.850s] running install_data
+[1.851s] running install_egg_info
+[1.852s] removing '/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.855s] Copying ../../build/guest_pkg/guest_pkg.egg-info to /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info
+[1.861s] running install_scripts
+[1.915s] Installing guest_node script to /home/zyx/restaurant_ws/install/guest_pkg/lib/guest_pkg
+[1.915s] writing list of installed files to '/home/zyx/restaurant_ws/build/guest_pkg/install.log'
+[2.002s] Invoked command in '/home/zyx/restaurant_ws/src/guest_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/zyx/restaurant_ws/build/guest_pkg/build install --record /home/zyx/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data

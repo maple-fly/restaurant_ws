@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/guest_pkg/guest_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/guest_pkg/guest_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/guest_pkg/guest_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/guest_pkg/guest_pkg.egg-info/requires.txt
+writing top-level names to ../../build/guest_pkg/guest_pkg.egg-info/top_level.txt
+reading manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying guest_pkg/guest_node.py -> /home/zyx/restaurant_ws/build/guest_pkg/build/lib/guest_pkg
+running install
+running install_lib
+copying /home/zyx/restaurant_ws/build/guest_pkg/build/lib/guest_pkg/guest_node.py -> /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg
+byte-compiling /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg/guest_node.py to guest_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/guest_pkg/guest_pkg.egg-info to /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing guest_node script to /home/zyx/restaurant_ws/install/guest_pkg/lib/guest_pkg
+writing list of installed files to '/home/zyx/restaurant_ws/build/guest_pkg/install.log'

@@ -1,0 +1,31 @@
+[0.906s] Invoking command in '/home/cszking/restaurant_ws/src/waiter_pkg': PYTHONPATH=/home/cszking/restaurant_ws/build/waiter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_pkg build --build-base /home/cszking/restaurant_ws/build/waiter_pkg/build install --record /home/cszking/restaurant_ws/build/waiter_pkg/install.log --single-version-externally-managed install_data
+[1.191s] running egg_info
+[1.192s] writing ../../build/waiter_pkg/waiter_pkg.egg-info/PKG-INFO
+[1.193s] writing dependency_links to ../../build/waiter_pkg/waiter_pkg.egg-info/dependency_links.txt
+[1.193s] writing entry points to ../../build/waiter_pkg/waiter_pkg.egg-info/entry_points.txt
+[1.194s] writing requirements to ../../build/waiter_pkg/waiter_pkg.egg-info/requires.txt
+[1.194s] writing top-level names to ../../build/waiter_pkg/waiter_pkg.egg-info/top_level.txt
+[1.195s] reading manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+[1.195s] adding license file 'LICENSE'
+[1.196s] writing manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+[1.196s] running build
+[1.196s] running build_py
+[1.197s] copying waiter_pkg/__init__.py -> /home/cszking/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg
+[1.197s] copying waiter_pkg/waiter_node.py -> /home/cszking/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg
+[1.200s] running install
+[1.200s] running install_lib
+[1.200s] copying /home/cszking/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg/__init__.py -> /home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg
+[1.201s] copying /home/cszking/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg/waiter_node.py -> /home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg
+[1.201s] byte-compiling /home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg/__init__.py to __init__.cpython-310.pyc
+[1.202s] byte-compiling /home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg/waiter_node.py to waiter_node.cpython-310.pyc
+[1.203s] running install_data
+[1.205s] copying resource/waiter_pkg -> /home/cszking/restaurant_ws/install/waiter_pkg/share/ament_index/resource_index/packages
+[1.205s] copying package.xml -> /home/cszking/restaurant_ws/install/waiter_pkg/share/waiter_pkg
+[1.205s] copying launch/waiter.launch.py -> /home/cszking/restaurant_ws/install/waiter_pkg/share/waiter_pkg/launch
+[1.205s] running install_egg_info
+[1.208s] removing '/home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.211s] Copying ../../build/waiter_pkg/waiter_pkg.egg-info to /home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg-0.0.0-py3.10.egg-info
+[1.213s] running install_scripts
+[1.232s] Installing waiter_node script to /home/cszking/restaurant_ws/install/waiter_pkg/lib/waiter_pkg
+[1.232s] writing list of installed files to '/home/cszking/restaurant_ws/build/waiter_pkg/install.log'
+[1.287s] Invoked command in '/home/cszking/restaurant_ws/src/waiter_pkg' returned '0': PYTHONPATH=/home/cszking/restaurant_ws/build/waiter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cszking/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_pkg build --build-base /home/cszking/restaurant_ws/build/waiter_pkg/build install --record /home/cszking/restaurant_ws/build/waiter_pkg/install.log --single-version-externally-managed install_data

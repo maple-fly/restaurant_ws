@@ -1,0 +1,3 @@
+[console_scripts]
+chef_node = chef_pkg.chef_node:main
+

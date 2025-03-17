@@ -1,0 +1,277 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7dbb74c2c130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbb74be7be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbb74be7be0>>)
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zyx/restaurant_ws'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/chef_pkg) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chef_pkg' with type 'ros.ament_python' and name 'chef_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/guest_pkg) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/guest_pkg' with type 'ros.ament_python' and name 'guest_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/restaurant_launch) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/restaurant_launch' with type 'ros.ament_python' and name 'restaurant_launch'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/waiter_pkg) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waiter_pkg' with type 'ros.ament_python' and name 'waiter_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/zyx/restaurant_ws/install
+[0.258s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'chef_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'chef_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zyx/restaurant_ws/build/chef_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zyx/restaurant_ws/install/chef_pkg', 'merge_install': False, 'path': '/home/zyx/restaurant_ws/src/chef_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'guest_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'guest_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zyx/restaurant_ws/build/guest_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zyx/restaurant_ws/install/guest_pkg', 'merge_install': False, 'path': '/home/zyx/restaurant_ws/src/guest_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'cmake_target' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'restaurant_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'restaurant_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zyx/restaurant_ws/build/restaurant_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zyx/restaurant_ws/install/restaurant_launch', 'merge_install': False, 'path': '/home/zyx/restaurant_ws/src/restaurant_launch', 'symlink_install': False, 'test_result_base': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'waiter_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'waiter_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zyx/restaurant_ws/build/waiter_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zyx/restaurant_ws/install/waiter_pkg', 'merge_install': False, 'path': '/home/zyx/restaurant_ws/src/waiter_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zyx/restaurant_ws/src/chef_pkg' with build type 'ament_python'
+[0.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('chef_pkg', 'ament_prefix_path')
+[0.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/hook/ament_prefix_path.ps1'
+[0.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/hook/ament_prefix_path.dsv'
+[0.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/hook/ament_prefix_path.sh'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zyx/restaurant_ws/src/guest_pkg' with build type 'ament_python'
+[0.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('guest_pkg', 'ament_prefix_path')
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/hook/ament_prefix_path.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/hook/ament_prefix_path.dsv'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/hook/ament_prefix_path.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zyx/restaurant_ws/src/restaurant_launch' with build type 'ament_python'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('restaurant_launch', 'ament_prefix_path')
+[0.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/hook/ament_prefix_path.ps1'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/hook/ament_prefix_path.dsv'
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/hook/ament_prefix_path.sh'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zyx/restaurant_ws/src/waiter_pkg' with build type 'ament_python'
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_pkg', 'ament_prefix_path')
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/hook/ament_prefix_path.ps1'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/hook/ament_prefix_path.dsv'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/hook/ament_prefix_path.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.560s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zyx/restaurant_ws/src/chef_pkg'
+[0.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zyx/restaurant_ws/src/guest_pkg'
+[0.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zyx/restaurant_ws/src/restaurant_launch'
+[1.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.224s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zyx/restaurant_ws/src/waiter_pkg'
+[1.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zyx/restaurant_ws/src/chef_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/chef_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chef_pkg build --build-base /home/zyx/restaurant_ws/build/chef_pkg/build install --record /home/zyx/restaurant_ws/build/chef_pkg/install.log --single-version-externally-managed install_data
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zyx/restaurant_ws/src/guest_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/zyx/restaurant_ws/build/guest_pkg/build install --record /home/zyx/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data
+[1.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zyx/restaurant_ws/src/restaurant_launch': PYTHONPATH=/home/zyx/restaurant_ws/build/restaurant_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/restaurant_launch build --build-base /home/zyx/restaurant_ws/build/restaurant_launch/build install --record /home/zyx/restaurant_ws/build/restaurant_launch/install.log --single-version-externally-managed install_data
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zyx/restaurant_ws/src/waiter_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/waiter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_pkg build --build-base /home/zyx/restaurant_ws/build/waiter_pkg/build install --record /home/zyx/restaurant_ws/build/waiter_pkg/install.log --single-version-externally-managed install_data
+[2.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zyx/restaurant_ws/src/chef_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/chef_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chef_pkg build --build-base /home/zyx/restaurant_ws/build/chef_pkg/build install --record /home/zyx/restaurant_ws/build/chef_pkg/install.log --single-version-externally-managed install_data
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg' for CMake module files
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg' for CMake config files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg/lib'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg/bin'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg/lib/pkgconfig/chef_pkg.pc'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg/lib/python3.10/site-packages'
+[2.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('chef_pkg', 'pythonpath')
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/hook/pythonpath.ps1'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/hook/pythonpath.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/hook/pythonpath.sh'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/chef_pkg/bin'
+[2.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chef_pkg)
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/package.ps1'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/package.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/package.sh'
+[2.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/package.bash'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/chef_pkg/share/chef_pkg/package.zsh'
+[2.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zyx/restaurant_ws/install/chef_pkg/share/colcon-core/packages/chef_pkg)
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg' for CMake module files
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg' for CMake config files
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg/lib'
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg/bin'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg/lib/pkgconfig/guest_pkg.pc'
+[2.136s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages'
+[2.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('guest_pkg', 'pythonpath')
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/hook/pythonpath.ps1'
+[2.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zyx/restaurant_ws/src/guest_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/zyx/restaurant_ws/build/guest_pkg/build install --record /home/zyx/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/hook/pythonpath.dsv'
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/hook/pythonpath.sh'
+[2.142s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/guest_pkg/bin'
+[2.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(guest_pkg)
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/package.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/package.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/package.sh'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/package.bash'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/guest_pkg/share/guest_pkg/package.zsh'
+[2.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zyx/restaurant_ws/install/guest_pkg/share/colcon-core/packages/guest_pkg)
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch' for CMake module files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch' for CMake config files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch/lib'
+[2.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zyx/restaurant_ws/src/restaurant_launch' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/restaurant_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/restaurant_launch build --build-base /home/zyx/restaurant_ws/build/restaurant_launch/build install --record /home/zyx/restaurant_ws/build/restaurant_launch/install.log --single-version-externally-managed install_data
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch/bin'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch/lib/pkgconfig/restaurant_launch.pc'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages'
+[2.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('restaurant_launch', 'pythonpath')
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/hook/pythonpath.ps1'
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/hook/pythonpath.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/hook/pythonpath.sh'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/restaurant_launch/bin'
+[2.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(restaurant_launch)
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/package.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/package.sh'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/package.bash'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/restaurant_launch/share/restaurant_launch/package.zsh'
+[2.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zyx/restaurant_ws/install/restaurant_launch/share/colcon-core/packages/restaurant_launch)
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg' for CMake module files
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zyx/restaurant_ws/src/waiter_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/waiter_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waiter_pkg build --build-base /home/zyx/restaurant_ws/build/waiter_pkg/build install --record /home/zyx/restaurant_ws/build/waiter_pkg/install.log --single-version-externally-managed install_data
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg' for CMake config files
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg/lib'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg/bin'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg/lib/pkgconfig/waiter_pkg.pc'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages'
+[2.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('waiter_pkg', 'pythonpath')
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/hook/pythonpath.ps1'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/hook/pythonpath.dsv'
+[2.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/hook/pythonpath.sh'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/zyx/restaurant_ws/install/waiter_pkg/bin'
+[2.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waiter_pkg)
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/package.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/package.dsv'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/package.sh'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/package.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg/package.zsh'
+[2.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zyx/restaurant_ws/install/waiter_pkg/share/colcon-core/packages/waiter_pkg)
+[2.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.219s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.219s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.225s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.247s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zyx/restaurant_ws/install/local_setup.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zyx/restaurant_ws/install/_local_setup_util_ps1.py'
+[2.255s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zyx/restaurant_ws/install/setup.ps1'
+[2.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zyx/restaurant_ws/install/local_setup.sh'
+[2.263s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zyx/restaurant_ws/install/_local_setup_util_sh.py'
+[2.264s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zyx/restaurant_ws/install/setup.sh'
+[2.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zyx/restaurant_ws/install/local_setup.bash'
+[2.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zyx/restaurant_ws/install/setup.bash'
+[2.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zyx/restaurant_ws/install/local_setup.zsh'
+[2.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zyx/restaurant_ws/install/setup.zsh'

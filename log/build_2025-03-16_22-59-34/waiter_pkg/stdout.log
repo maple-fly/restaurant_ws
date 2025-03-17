@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/waiter_pkg/waiter_pkg.egg-info
+writing ../../build/waiter_pkg/waiter_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/waiter_pkg/waiter_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/waiter_pkg/waiter_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/waiter_pkg/waiter_pkg.egg-info/requires.txt
+writing top-level names to ../../build/waiter_pkg/waiter_pkg.egg-info/top_level.txt
+writing manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/waiter_pkg/waiter_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zyx/restaurant_ws/build/waiter_pkg/build
+creating /home/zyx/restaurant_ws/build/waiter_pkg/build/lib
+creating /home/zyx/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg
+copying waiter_pkg/__init__.py -> /home/zyx/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg
+running install
+running install_lib
+creating /home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg
+copying /home/zyx/restaurant_ws/build/waiter_pkg/build/lib/waiter_pkg/__init__.py -> /home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg
+byte-compiling /home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zyx/restaurant_ws/install/waiter_pkg/share/ament_index
+creating /home/zyx/restaurant_ws/install/waiter_pkg/share/ament_index/resource_index
+creating /home/zyx/restaurant_ws/install/waiter_pkg/share/ament_index/resource_index/packages
+copying resource/waiter_pkg -> /home/zyx/restaurant_ws/install/waiter_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/zyx/restaurant_ws/install/waiter_pkg/share/waiter_pkg
+running install_egg_info
+Copying ../../build/waiter_pkg/waiter_pkg.egg-info to /home/zyx/restaurant_ws/install/waiter_pkg/lib/python3.10/site-packages/waiter_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zyx/restaurant_ws/build/waiter_pkg/install.log'

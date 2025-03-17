@@ -1,0 +1,27 @@
+[0.998s] Invoking command in '/home/cszking/restaurant_ws/src/restaurant_launch': PYTHONPATH=/home/cszking/restaurant_ws/build/restaurant_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cszking/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/restaurant_launch build --build-base /home/cszking/restaurant_ws/build/restaurant_launch/build install --record /home/cszking/restaurant_ws/build/restaurant_launch/install.log --single-version-externally-managed install_data
+[1.255s] running egg_info
+[1.257s] writing ../../build/restaurant_launch/restaurant_launch.egg-info/PKG-INFO
+[1.259s] writing dependency_links to ../../build/restaurant_launch/restaurant_launch.egg-info/dependency_links.txt
+[1.260s] writing entry points to ../../build/restaurant_launch/restaurant_launch.egg-info/entry_points.txt
+[1.261s] writing requirements to ../../build/restaurant_launch/restaurant_launch.egg-info/requires.txt
+[1.262s] writing top-level names to ../../build/restaurant_launch/restaurant_launch.egg-info/top_level.txt
+[1.266s] reading manifest file '../../build/restaurant_launch/restaurant_launch.egg-info/SOURCES.txt'
+[1.268s] adding license file 'LICENSE'
+[1.268s] writing manifest file '../../build/restaurant_launch/restaurant_launch.egg-info/SOURCES.txt'
+[1.269s] running build
+[1.269s] running build_py
+[1.270s] copying restaurant_launch/__init__.py -> /home/cszking/restaurant_ws/build/restaurant_launch/build/lib/restaurant_launch
+[1.271s] running install
+[1.274s] running install_lib
+[1.275s] copying /home/cszking/restaurant_ws/build/restaurant_launch/build/lib/restaurant_launch/__init__.py -> /home/cszking/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages/restaurant_launch
+[1.276s] byte-compiling /home/cszking/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages/restaurant_launch/__init__.py to __init__.cpython-310.pyc
+[1.277s] running install_data
+[1.278s] copying resource/restaurant_launch -> /home/cszking/restaurant_ws/install/restaurant_launch/share/ament_index/resource_index/packages
+[1.279s] copying package.xml -> /home/cszking/restaurant_ws/install/restaurant_launch/share/restaurant_launch
+[1.280s] copying launch/launch_all.launch.py -> /home/cszking/restaurant_ws/install/restaurant_launch/share/restaurant_launch/launch
+[1.280s] running install_egg_info
+[1.286s] removing '/home/cszking/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages/restaurant_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.290s] Copying ../../build/restaurant_launch/restaurant_launch.egg-info to /home/cszking/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages/restaurant_launch-0.0.0-py3.10.egg-info
+[1.290s] running install_scripts
+[1.318s] writing list of installed files to '/home/cszking/restaurant_ws/build/restaurant_launch/install.log'
+[1.346s] Invoked command in '/home/cszking/restaurant_ws/src/restaurant_launch' returned '0': PYTHONPATH=/home/cszking/restaurant_ws/build/restaurant_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cszking/restaurant_ws/install/restaurant_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/restaurant_launch build --build-base /home/cszking/restaurant_ws/build/restaurant_launch/build install --record /home/cszking/restaurant_ws/build/restaurant_launch/install.log --single-version-externally-managed install_data

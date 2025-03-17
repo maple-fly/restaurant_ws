@@ -1,0 +1,3 @@
+[console_scripts]
+guest_node = guest_pkg.guest_node:main
+

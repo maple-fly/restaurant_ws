@@ -1,0 +1,25 @@
+[1.669s] Invoking command in '/home/zyx/restaurant_ws/src/guest_pkg': PYTHONPATH=/home/zyx/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/zyx/restaurant_ws/build/guest_pkg/build install --record /home/zyx/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data
+[1.983s] running egg_info
+[1.984s] writing ../../build/guest_pkg/guest_pkg.egg-info/PKG-INFO
+[1.984s] writing dependency_links to ../../build/guest_pkg/guest_pkg.egg-info/dependency_links.txt
+[1.984s] writing entry points to ../../build/guest_pkg/guest_pkg.egg-info/entry_points.txt
+[1.985s] writing requirements to ../../build/guest_pkg/guest_pkg.egg-info/requires.txt
+[1.985s] writing top-level names to ../../build/guest_pkg/guest_pkg.egg-info/top_level.txt
+[1.987s] reading manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+[1.987s] adding license file 'LICENSE'
+[1.988s] writing manifest file '../../build/guest_pkg/guest_pkg.egg-info/SOURCES.txt'
+[1.988s] running build
+[1.988s] running build_py
+[1.988s] copying guest_pkg/guest_node.py -> /home/zyx/restaurant_ws/build/guest_pkg/build/lib/guest_pkg
+[1.988s] running install
+[1.989s] running install_lib
+[1.990s] copying /home/zyx/restaurant_ws/build/guest_pkg/build/lib/guest_pkg/guest_node.py -> /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg
+[1.990s] byte-compiling /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg/guest_node.py to guest_node.cpython-310.pyc
+[1.991s] running install_data
+[1.991s] running install_egg_info
+[1.993s] removing '/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.993s] Copying ../../build/guest_pkg/guest_pkg.egg-info to /home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages/guest_pkg-0.0.0-py3.10.egg-info
+[1.994s] running install_scripts
+[2.015s] Installing guest_node script to /home/zyx/restaurant_ws/install/guest_pkg/lib/guest_pkg
+[2.015s] writing list of installed files to '/home/zyx/restaurant_ws/build/guest_pkg/install.log'
+[2.045s] Invoked command in '/home/zyx/restaurant_ws/src/guest_pkg' returned '0': PYTHONPATH=/home/zyx/restaurant_ws/build/guest_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zyx/restaurant_ws/install/guest_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/guest_pkg build --build-base /home/zyx/restaurant_ws/build/guest_pkg/build install --record /home/zyx/restaurant_ws/build/guest_pkg/install.log --single-version-externally-managed install_data

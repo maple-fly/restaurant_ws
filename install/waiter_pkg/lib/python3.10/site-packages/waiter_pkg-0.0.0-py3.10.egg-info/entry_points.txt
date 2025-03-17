@@ -1,0 +1,3 @@
+[console_scripts]
+waiter_node = waiter_pkg.waiter_node:main
+
